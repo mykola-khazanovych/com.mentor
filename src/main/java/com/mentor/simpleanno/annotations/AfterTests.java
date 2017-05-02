@@ -1,4 +1,4 @@
-package com.mentor.annotations;
+package com.mentor.simpleanno.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -8,10 +8,10 @@ import java.lang.annotation.Target;
 /**
  * @author Mykola Khazanovych
  *         01.05.2017;
- *         11:53;
- *         com.mentor.annotations;
+ *         11:54;
+ *         com.mentor.simpleanno.annotations;
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface Ignore {
+public @interface AfterTests {
 }

@@ -1,4 +1,4 @@
-package com.mentor;
+package com.mentor.simpleanno;
 
 /**
  * @author Mykola Khazanovych
@@ -9,7 +9,7 @@ package com.mentor;
 public class AnnotationHandlerRunner {
     public static void main(String[] args) {
 
-        final String CLASS_WITH_ANNOTATED_METHODS_NAME = "com.mentor.TestClass";
+        final String CLASS_WITH_ANNOTATED_METHODS_NAME = "com.mentor.simpleanno.TestClass";
 
         AnnotationHandler ah = new AnnotationHandler();
         ah.proceedAllAnnotatedMethods(CLASS_WITH_ANNOTATED_METHODS_NAME);

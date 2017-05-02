@@ -1,4 +1,4 @@
-package com.mentor.utils;
+package com.mentor.simpleanno.utils;
 
 /**
  * @author Mykola Khazanovych

@@ -1,9 +1,9 @@
-package com.mentor.utils;
+package com.mentor.simpleanno.utils;
 
-import com.mentor.annotations.AfterTests;
-import com.mentor.annotations.BeforeTests;
-import com.mentor.annotations.Ignore;
-import com.mentor.annotations.Test;
+import com.mentor.simpleanno.annotations.AfterTests;
+import com.mentor.simpleanno.annotations.BeforeTests;
+import com.mentor.simpleanno.annotations.Ignore;
+import com.mentor.simpleanno.annotations.Test;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

@@ -1,11 +1,11 @@
-package com.mentor;
+package com.mentor.simpleanno;
 
-import com.mentor.annotations.AfterTests;
-import com.mentor.annotations.BeforeTests;
-import com.mentor.annotations.Ignore;
-import com.mentor.annotations.Test;
-import com.mentor.utils.Assert;
-import com.mentor.utils.MismatchedDataException;
+import com.mentor.simpleanno.annotations.AfterTests;
+import com.mentor.simpleanno.annotations.BeforeTests;
+import com.mentor.simpleanno.annotations.Ignore;
+import com.mentor.simpleanno.annotations.Test;
+import com.mentor.simpleanno.utils.Assert;
+import com.mentor.simpleanno.utils.MismatchedDataException;
 
 /**
  * @author Mykola Khazanovych
