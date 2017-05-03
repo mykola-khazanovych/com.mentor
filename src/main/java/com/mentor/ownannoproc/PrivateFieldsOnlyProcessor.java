@@ -20,7 +20,7 @@ import java.util.Set;
  */
 
 @SupportedAnnotationTypes("PrivateFieldsOnly")
-@SupportedSourceVersion(SourceVersion.RELEASE_7)
+@SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class PrivateFieldsOnlyProcessor extends AbstractProcessor {
 
     @Override

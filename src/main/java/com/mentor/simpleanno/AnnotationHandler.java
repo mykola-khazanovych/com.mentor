@@ -1,5 +1,6 @@
 package com.mentor.simpleanno;
 
+import com.mentor.ownannoproc.PrivateFieldsOnly;
 import com.mentor.simpleanno.utils.ListBuilder;
 import com.mentor.simpleanno.utils.MismatchedDataException;
 
@@ -13,7 +14,7 @@ import java.util.List;
  *         13:23;
  *         com.mentor;
  */
-
+@PrivateFieldsOnly
 class AnnotationHandler {
 
     private Class annotatedClass;
